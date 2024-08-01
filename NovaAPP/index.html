@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteneur">
+        <div class="menu">
+            <h1>Novatech-M</h1>
+            <div class="buttons">
+                <button id="novMenu1">Home</button>
+                <button id="novaMenu2">About-tableau</button>
+                <button id="novaImage">My family</button>
+                <button id="ordino"><a href="ordinogramme.html">Organigramme</a></button>
+            </div>
+        </div>
+        <!--le champs de saisi input pour le button numero 01-->
+        <div class="formulaire novMenu1">
+            <h1>APP.NOVATCH</h1>
+            <div class="form">
+                <h1>member of Novatech</h1>
+                <form >
+                    <div class="david">
+                        <p>Nom: </p>
+                        <input type="text" required id="nom">
+                    </div>
+                    <div class="david">
+                        <p>Post-nom: </p>
+                        <input type="text" required id="postnom">
+                    </div>
+                    <div class="david">
+                        <p>prenom: </p>
+                        <input type="text" required id="prenom">
+                    </div>
+                    <button id="enregistre">Sauvegarde</button>
+                </form>
+            </div>
+        </div>
+
+        <!--creation du tableau-->
+        <div class="formulaire novaMenu2">
+            <h1>NOVA-ASSOCIEE</h1>
+            <table border="1" width="600">
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Post-nom</th>
+                        <th>Prenom</th>
+                    </tr>
+                </thead>
+
+                <tbody class="data">
+
+                </tbody>
+            </table>
+        </div>
+        <!--animations de mes images-->
+        <div class="arriere novaImage">
+            <h1>NOVATCH TEAM</h1>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

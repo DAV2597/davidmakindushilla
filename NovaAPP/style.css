@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conteneur{
+    display: flex;
+    gap: 20px;
+}
+.conteneur .menu{
+    background: black;
+    color: white;
+    width: 550px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+.conteneur .menu h1{
+    margin-top: 0px;
+}
+.conteneur .menu .buttons{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    padding: 12px;
+}
+.conteneur .menu .buttons button{
+    padding: 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    border: none;
+}
+.conteneur .menu .buttons button a{
+    text-decoration: none;
+    color: black;
+}
+.formulaire{
+    margin-left: 700px;
+    width: 100%;
+}
+.formulaire h1{
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+.formulaire .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    width: 600px;
+    height: 80vh;
+}
+.form h1{
+    color: black;
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.form form p{
+    width: 100%;
+    font-variant: small-caps;
+    padding: 10px;
+
+}
+.form form input{
+    width: 50%;
+    padding: 10px;
+}
+.form form button{
+    padding: 10px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+table tr{
+    border-collapse: collapse;
+    padding: 10px;
+    font-variant: small-caps;
+}
+th,td{
+    font-variant: small-caps;
+    text-align: center;
+}
+.arriere{
+    margin-left: 580px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    animation: dav 100s infinite;
+   
+}
+@keyframes dav{
+    10%{
+        background-image: url('ImageNova/Annotation 2024-05-15 074236.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    20%{
+        background-image: url('ImageNova/SHILLA.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    30%{
+        background-image: url('ImageNova/BULLGAT.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    35%{
+        background-image: url('ImageNova/VICTOIRE.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    40%{
+        background-image: url('ImageNova/PIECE.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    45%{
+        background-image: url('ImageNova/BEN.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url('ImageNova/GROJOUX.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

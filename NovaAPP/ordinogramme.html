@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <style>
+        *{
+            margin: auto;width: 800px;
+            background-attachment: fixed;
+           
+        }
+        .titre{margin: auto;}
+        .titre h1{position: relative;top: 50px;text-align: center;text-decoration: underline;}
+        .general{position: relative;top: 100px;border: 1px dotted #000;outline: 5px dashed rgb(31, 32, 31);background-color: #eee;}
+        .A{background-color: #310101;width: 100px;height: 100px;color: white;text-align: center;}
+        .B{background-color: #9e7979;width: 100px;height: 100px;color: white;right: 20px;position: absolute;text-align: center;}
+        .C{background-color: #3c065c;width: 100px;height: 100px;color: white;left: 10px;position: absolute;text-align: center;}
+        .D{background-color: #831963;width: 100px;height: 100px;color: white;right: 100px;position: relative;text-align: center;}
+        .E{background-color: #0b743f;width: 100px;height: 100px;color: white;top: 100px;position: absolute;left: 450px;text-align: center;}
+        .F{background-color: #004879;width: 100px;height: 100px;color: white;text-align: center;}
+        legend{text-align: center;opacity: 0.6;}
+        fieldset{box-shadow: 0px 0px 100px rgb(27, 0, 77);}
+        
+    </style>
+    <title>ORDINOGRAMME</title>
+</head>
+<body>
+<section class="pos">
+    
+        
+ 
+</section>
+<section class="titre">
+   <h1>ORDINOGRAMME DU GROUPE</h1>   
+</section>
+<aside class="general">
+    <div class="A" title="PDG DU GROPE">DAVID</div>
+    <div class="B" title="DG DU GROUPE">VICTOIRE</div><hr>
+    <div class="C" title="SECRETEUR DU GROUPE">GYS</div>
+    <div class="D" title="CHAREGE DE LA DISCIPLINE">RODRIGUE</div>
+    <div class="E" title="NI BALA">BEN</div>
+    <div class="F" title="VERIFICATEUR">STEVEN</div>
+    <footer class="pied">
+        <fieldset>
+            <legend><mark><hr>CHANGE LE COULEURS DE L'ARRIERE PLAN</mark></legend>
+            <button id="a">Par defaut</button>
+            <button id="b">Sombre</button>
+            <button id="c">vert</button>
+            <button id="d">Rouge</button>
+            <button id="e">Jaune</button>
+            <button id="f">Bleu</button>
+        </fieldset>
+        
+    </footer>
+</aside>
+
+        
+<script>
+   const b1=document.getElementById("a") 
+   const b2=document.getElementById("b") 
+   const b3=document.getElementById("c") 
+   const b4=document.getElementById("d") 
+   const b5=document.getElementById("e") 
+   const b6=document.getElementById("f") 
+
+   b1.onclick=()=> document.body.style.backgroundColor="#eee"
+   b2.onclick=()=> document.body.style.backgroundColor="black"
+   b3.onclick=()=> document.body.style.backgroundColor="green"
+   b4.onclick=()=> document.body.style.backgroundColor="red"
+   b5.onclick=()=> document.body.style.backgroundColor="yellow"
+   b6.onclick=()=> document.body.style.backgroundColor="Darkblue"
+</script>
+</body>
+</html>
